@@ -12,28 +12,31 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Boago Moshosho</a>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#"
-              >Home <span class="sr-only"></span
-            ></a>
-            <a class="nav-item nav-link" href="about.html">About me</a>
-            <a class="nav-item nav-link" href="about.html#contact">Contact me</a
-            >
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+            </ul>
         </div>
       </div>
     </nav>
@@ -46,14 +49,14 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 d-none d-lg-block">
           <img
             src="images/yoga.png"
             alt="yoga-app"
             class="images img-fluid rounded"
           />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 apps">
           <h2 class="app-name mb-3">Yoga App</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -66,7 +69,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6">
+          <div class="col-md-6 apps">
             <h2 class="app-name mb-3">Weather App</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -78,7 +81,7 @@
               <a href="#" class="links">Launch Weather App</a>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 d-none d-lg-block">
             <img
               src="images/weather.png"
               alt="weather-app"
@@ -87,14 +90,14 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6">
+          <div class="col-md-6 d-none d-lg-block">
             <img
               src="images/yogurt.png"
               alt="yogurt-app"
               class="images img-fluid rounded"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 apps">
             <h2 class="app-name mb-3">Yogurt App</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

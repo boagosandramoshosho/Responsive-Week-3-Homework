@@ -101,3 +101,18 @@
   .app-name {
     text-align: left;
   }
+
+  @media (min-width:576px) {
+
+    h1{
+        font-size: 58px;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    .apps{
+        text-align: center;
+    }
+  }
